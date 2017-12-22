@@ -22410,6 +22410,24 @@ a[class*="color"]:hover {
 		/*display: inline-block !important;*/
 		vertical-align: middle !important
 	}
+.verticalAlignTop {
+	vertical-align:top
+}
+.verticalAlignMiddle {
+	vertical-align:middle
+}
+.verticalAlignBottom {
+	vertical-align:bottom
+}
+.verticalAlignBaseline {
+	vertical-align:baseline
+}
+.verticalAlignSub {
+	vertical-align:sub
+}
+.verticalAlignSuper {
+	vertical-align:super
+}
 /*===================================
  * Position
 ===================================*/
@@ -22435,6 +22453,12 @@ a[class*="color"]:hover {
 .displayInlineBlock,.inline-block {
 	display: inline-block !important;
 	overflow: hidden !important
+}
+.displayTable {
+	display:table
+}
+.displayTableCell {
+	display:table-cell
 }
 .displayNone {
 	display: none !important
