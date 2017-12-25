@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/famcss/classmate/blob/master/LICENSE)
 ======================================================*/
 
+
 .clear-xs-left {
 	clear: left !important
 }
@@ -22231,6 +22232,12 @@ a[class*="color"]:hover {
 .width70pct-fluid {
 	min-width:70%
 }
+.width75pct {
+	width:75%
+}
+.width75pct-fluid {
+	min-width:75%
+}
 .width80pct {
 	width:80%
 }
@@ -22311,6 +22318,12 @@ a[class*="color"]:hover {
 }
 .width70vh-fluid {
 	min-width:70vh
+}
+.width75vh {
+	width:75vh
+}
+.width75vh-fluid {
+	min-width:75vh
 }
 .width80vh {
 	width:80vh
