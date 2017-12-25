@@ -22908,8 +22908,8 @@ a[class*="color"]:hover {
 	height:225px !important;
 	overflow:hidden !important
 }
-.height125-fluid {
-	min-height:125px !important
+.height225-fluid {
+	min-height:225px !important
 }
 .height250 {
 	height:250px !important;
