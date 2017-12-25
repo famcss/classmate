@@ -566,6 +566,8 @@ To use Classmates verticalCenter component, simply wrap any height defined verti
 HTML Example:
 <div class="verticalCenter height200 borderGrey8"><div class="container">This text is vertically aligned in the middle</div></div>
 
+Position
+
 The Classmate library contains 4 of the most commonly used element positions to utilise with your project.
 
 Position options available:
@@ -583,6 +585,42 @@ Position placements as a percentage (responsive selectors available with this mo
 
 HTML Example:
 <div class="positionRelative height200 borderGrey8"><div class="positionAbsolute positionTop50 positionRight100">This text is positioned 50px from the top, 100px from the right</div></div>
+
+Width
+
+The Classmate width model uses 3 measurement scales to select the width of your element, pixels (px), percentage (pct) and viewport (vw)
+
+There are 43 width options in pixels, 15 as a percentage and 13 as viewport width measurments available with the Classmate library which are as follows:
+
+Width options in pixels:
+5px, 10px, 15px, 20px, 25px, 30px, 40px, 50px, 60px, 70px, 75px, 80px, 90px, 100px, 125px, 150px, 175px, 200px, 225px, 250px, 275px, 300px, 325px, 350px, 375px, 400px, 425px, 450px, 475px, 500px, 525px, 550px, 575px, 600px, 650px, 700px, 750px, 800px, 850px, 900px, 950px, 1000px
+
+Width options as a percentage:
+10%, 12%, 15%, 17%, 20%, 25%, 30%, 33%, 50%, 60%, 66%, 70%, 75%, 80%, 90%, 100%
+
+Width options in viewport width:
+10vw, 15vw, 20vw, 25vw, 30vw, 33vw, 40vw, 50vw, 60vw, 66vw, 70vw, 75vw, 80vw, 90vw, 100vw
+
+HTML Example:
+<div class="width25pct">Element is 25% the width of it's parent container</div>
+
+Height
+
+The Classmate height model uses 3 measurement scales to select the height of your element, pixels (px), percentage (pct) and viewport (vh)
+
+There are 34 height options in pixels, 14 as a percentage and 13 as viewport height measurments available with the Classmate library which are as follows:
+
+Height options in pixels:
+5px, 10px, 15px, 20px, 25px, 30px, 40px, 50px, 60px, 70px, 80px, 90px, 100px, 125px, 130px, 150px, 175px, 200px, 225px, 250px, 275px, 300px, 325px, 350px, 375px, 400px, 425px, 450px, 475px, 500px, 525px, 550px, 575px, 600px
+
+Height options as a percentage:
+10%, 15%, 20%, 25%, 30%, 33%, 40%, 50%, 60%, 66%, 70%, 75%, 80%, 90%, 100%
+
+Height options in viewport width:
+10vw, 15vw, 20vw, 25vw, 30vw, 33vw, 40vw, 50vw, 60vw, 66vw, 70vw, 75vw, 80vw, 90vw, 100vw
+
+HTML Example:
+<div class="height100">Element is 100px high</div>
 
 Overflow
 
