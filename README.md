@@ -2,16 +2,17 @@
 Write less and develop faster with Classmate, an easy to use mobile responsive CSS Utility Library
 
 Installation
-
+------------
 To start using Classmate, download the source files and place them in your project css folder, then add a stylesheet <link> in the <head> of your document as shown below.
 Please Note: Classmate must be placed last, after all other stylesheets load.
 
+Example:
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/my-custom-styles.css">
 <link rel="stylesheet" href="/css/classmate.1.0.0.min.css">
 
 How It Works
-
+------------
 Classmate is a utility library of classes for applying powerful responsive styling to your project, such as padding, margins, font sizes, colors, borders and more.
 
 The Classmate library uses a simple rule for you to follow when applying it's classes, "Model", "Component", "Device", "Value".
@@ -26,8 +27,9 @@ To specify an amount in a value other than pixels, Classmate uses: pct = %, em =
 
 Here are some basic lessons to get you on your way with Classmate.
 
-Padding
 
+Padding
+-------
 There are five padding tiers to the Classmate system, one for each range of devices generally support plus an overrule class. Each tier begins with the minimum viewport size and automatically applies the styles to the respective device unless overridden or using an overrule* class.
 
 There are 24 padding sizes in pixels and 8 as a percentage, available with the Classmate library which are as follows:
@@ -60,7 +62,6 @@ To apply specific sizes of gutter or lateral padding to different devices, we si
 
 HTML Example:
 <div class="paddingLateral20">20px padding applied to both the top and bottom edges</div>
-
 <div class="paddingGutter20">20px padding applied to both the left and right edges</div>
 
 Overruled
@@ -73,7 +74,7 @@ HTML Example:
 
 
 Margin
-
+------
 There are five margin tiers to the Classmate system just like the padding model, one for each range of device plus an overrule class.
 
 There are 24 margin sizes (in pixels) available within the Classmate library which are as follows:
@@ -99,7 +100,6 @@ To apply specific sizes of gutter or lateral margins to different devices, we si
 
 HTML Example:
 <div class="marginLateral20">20px margin applied to both the top and bottom edges</div>
-
 <div class="marginGutter20">20px margin applied to both the left and right edges</div>
 
 Over The Edge
@@ -118,13 +118,11 @@ Overruled
 
 HTML Example:
 <div class="marginNone">0px padding on all devices</div>
-0px padding on all devices
-
 <div class="margin10">10px padding on all devices</div>
-10px padding on all devices
+
 
 Color
-
+-----
 Choose from 109 color variations available with the Classmate color library to use with your backgrounds, buttons, text or vector graphics.
 
     To apply a color to a background, place the letters "bg" in front of the color name
@@ -253,8 +251,9 @@ YellowLight
 Yellow
 YellowDark
 
-Border
 
+Border
+------
 Using the Classmate color library you can apply borders to your elements with ease.
 
 HTML Example:
@@ -389,8 +388,6 @@ Sometimes it's necessary to add borders to both the top and bottom or the left a
 
 HTML Example:
 <div class="borderLateralBlack3">borderLateralBlack3</div>
-borderLateralBlack3
-
 <div class="borderGutterGrey5">borderGutterGrey5</div>
 
 Give It Some Style
@@ -399,10 +396,7 @@ Classmate has included 3 border styles to choose from and can be styled with any
 
 HTML Example:
 <div class="borderBottomPink">borderBottomPink</div>
-borderBottomPink
-
 <div class="borderDashedBottomBlue">borderDashedBottomBlue</div>
-
 <div class="borderDottedBottomGreen">borderDottedBottomGreen</div>
 
 Let's Round It Off
@@ -431,11 +425,13 @@ Need a circle? no problem, just use the circle class and voila!
 HTML Example:
 <div class="circle padding15 bgGreenDark colorWhite"><i class="fa fa-check fontSize20px"></i></div>
 
-Font
 
+Font
+----
 Within the Classmate font model we can adjust the size to respond to different devices, increase or decrease the weight and even change the style of your fonts all from your HTML.
 
 Classmate has 3 mobile responsive font measurements to adjust your fonts with.
+
 Pixels (px)
 
 Pixel sizes (responsive selectors available with this model):
@@ -443,7 +439,6 @@ Pixel sizes (responsive selectors available with this model):
 
 HTML Example:
 <span class="fontSize20px">Font size 20px</span>
-
 
 Multiply (em)
 
@@ -453,7 +448,6 @@ Multiplied sizes (responsive selectors available with this model):
 HTML Example:
 <span class="fontSize2em">Font size 2em</span>
 
-
 Percent (pct)
 
 Percentage sizes (responsive selectors available with this model):
@@ -461,7 +455,6 @@ Percentage sizes (responsive selectors available with this model):
 
 HTML Example:
 <span class="fontSize200pct">Font size 200%</span>
-
 
 Make It Responsive
 
@@ -482,7 +475,7 @@ HTML Example:
 
 
 Text
-
+----
 Within the Classmate text model we can adjust the alignment and transform it to respond to different devices.
 Alignment
 
@@ -510,7 +503,6 @@ HTML Example:
 <div class="textUnderline">Text is underlined</div>
 <div class="textLineThrough">Text has a line through it</div>
 
-
 Wrap It Up
 
 To make mobile responsiveness even better, Classmate has included a wrap component to its text model library.
@@ -521,8 +513,9 @@ textWrapNone, textWrapNormal, wordBreakNormal, wordBreakAll, wordKeepAll
 HTML Example:
 <div class="width250 wordBreakAll">TheTextWillBreakTheWordToFitTheBoundingBox - TheBoundingBoxHasAFixedWidthOf250Pixels</div>
 
-Display
 
+Display
+-------
 Classmates display model makes it easy to display or hide elements as block, inline, table, cell or flex content.
 
 Display options available:
@@ -530,11 +523,11 @@ displayNone, displayBlock, displayInlineBlock, displayTable, displayTableCell, d
 
 HTML Example:
 <span class="displayBlock">HTML span element displayed as a block</span>
-
 <div class="displayInlineBlock">HTML div element displayed inline</div>
 
-Float
 
+Float
+-----
 Floating elements on your page to the left, right or center with Classmate couldn't be easier.
 
 Float options (responsive selectors available with this model):
@@ -552,8 +545,9 @@ Once again just tell Classmate which screen size you wish to float you elements 
 HTML Example:
 <div class="float-xs-center float-md-left">This element will float left for desktops, and centered for smaller devices</div>
 
-Vertical
 
+Vertical
+--------
 Vertically aligning text, images or components within tables on your page with Classmate couldn't be easier. Classmate can even center an element without any tables or JavaScript required.
 
 Vertical options available:
@@ -566,8 +560,9 @@ To use Classmates verticalCenter component, simply wrap any height defined verti
 HTML Example:
 <div class="verticalCenter height200 borderGrey8"><div class="container">This text is vertically aligned in the middle</div></div>
 
-Position
 
+Position
+--------
 The Classmate library contains 4 of the most commonly used element positions to utilise with your project.
 
 Position options available:
@@ -586,8 +581,9 @@ Position placements as a percentage (responsive selectors available with this mo
 HTML Example:
 <div class="positionRelative height200 borderGrey8"><div class="positionAbsolute positionTop50 positionRight100">This text is positioned 50px from the top, 100px from the right</div></div>
 
-Width
 
+Width
+-----
 The Classmate width model uses 3 measurement scales to select the width of your element, pixels (px), percentage (pct) and viewport (vw)
 
 There are 43 width options in pixels, 15 as a percentage and 13 as viewport width measurments available with the Classmate library which are as follows:
@@ -604,8 +600,9 @@ Width options in viewport width:
 HTML Example:
 <div class="width25pct">Element is 25% the width of it's parent container</div>
 
-Height
 
+Height
+------
 The Classmate height model uses 3 measurement scales to select the height of your element, pixels (px), percentage (pct) and viewport (vh)
 
 There are 34 height options in pixels, 14 as a percentage and 13 as viewport height measurments available with the Classmate library which are as follows:
@@ -622,8 +619,9 @@ Height options in viewport width:
 HTML Example:
 <div class="height100">Element is 100px high</div>
 
-Overflow
 
+Overflow
+--------
 Within the Classmate overflow model you can add and remove scrollbars from elements.
 
 Overflow options available:
@@ -631,12 +629,11 @@ overflowAuto, overflowHidden, overflowScroll, overflowVisible, overflowNoContent
 
 HTML Example:
 <div class="overflowScroll-x">Element with a horizontal scrollbar</div>
-
 <div class="overflowScroll-y">Element with a vertical scrollbar</div>
 
 
 Clear
-
+-----
 Clearing elements on your page from the left or right with Classmates clear model is another handy feature!
 
 Clear options (responsive selectors available with this model):
